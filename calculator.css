@@ -6,6 +6,10 @@ body {
 h1, h3{
     color: purple;
 }
+
+
+
+
 .calculator {
     margin: 20px auto;
     padding: 10px;
@@ -24,6 +28,19 @@ button {
     padding: 10px;
     margin: 5px;
     font-size: 18px;
+    background-color: #00f7ff;
+    color: #1a0202;
+}
+/* button .functions{
+    background: #ff9900;
+} */
+
+.cancel {
+    background: #00f7ff; /* aqua background color for the % button */
+}
+
+.functions {
+background: #7bff00;
 }
 
 #display {
@@ -32,4 +49,6 @@ button {
     font-size: 24px;
     text-align: right;
     margin-bottom: 10px;
+    background: #7bff00;
+
 }
